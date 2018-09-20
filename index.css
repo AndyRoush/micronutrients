@@ -48,3 +48,11 @@ main {
     -webkit-transition: color .28s ease, background-color .28s ease;
     transition: color .28s ease, background-color .28s ease;
 }
+
+.tab-demo {
+    margin-bottom: 20px;
+}
+
+.table-data {
+    margin-top: 40px;
+}
