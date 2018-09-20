@@ -56,3 +56,11 @@ main {
 .table-data {
     margin-top: 40px;
 }
+
+.micro-facts {
+    line-height: 1.6
+}
+
+#vitamins {
+    background-color: rgb(192, 176, 176)
+}
