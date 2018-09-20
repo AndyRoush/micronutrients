@@ -1,3 +1,50 @@
 .parallax-container {
-    height: "your height here";
-  }
+    height: 100vh;
+}
+
+.brand-logo {
+    margin-left: 2%;
+}
+
+.hero {
+    height: 500px;
+    background-color: blue;
+    color: white;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.tabs-container {
+    margin-top: 20px;
+}
+
+.tabs .tab a.active {
+    background-color: transparent;
+    color: #81c784;
+}
+
+.tabs .tab a.active {
+    background-color: transparent;
+    color: #81c784;
+}
+
+.tabs .tab a {
+    color: rgba(22, 109, 0, 0.7);
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: color .28s ease, background-color .28s ease;
+    transition: color .28s ease, background-color .28s ease;
+}
