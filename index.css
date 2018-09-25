@@ -61,6 +61,12 @@ main {
     line-height: 1.6
 }
 
-#vitamins {
-    background-color: rgb(192, 176, 176)
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #67cf2a;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #01610e ;
 }
