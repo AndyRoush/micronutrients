@@ -70,3 +70,24 @@ main {
     background-color: transparent;
     color: #01610e ;
 }
+
+.tabs.tabs-transparent .indicator {
+    background-color: rgb(145, 171, 255);
+}
+
+.tabs .tab {
+    color: black;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(2, 202, 19, 0.2);
+    outline: none;
+}
+
+.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a.active {
+    color: #81c784;
+}
+
+.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
+    color: rgb(34, 34, 34);
+}
