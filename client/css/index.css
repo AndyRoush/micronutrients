@@ -1,3 +1,11 @@
+.rgba-primary-0 { color: rgba( 66,150, 43,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(146,214,128,1) }
+.rgba-primary-2 { color: rgba( 98,179, 77,1) }
+.rgba-primary-3 { color: rgba( 40,120, 19,1) }
+.rgba-primary-4 { color: rgba( 17, 83,  0,1) }
+
+
+
 .parallax-container {
     height: 100vh;
 }
@@ -11,6 +19,14 @@
     background-color: blue;
     color: white;
 }
+
+.space-top {
+    height: 20vh;
+}
+
+/* .hero-text {
+    height: 50vh;
+} */
 
 body {
     display: flex;
