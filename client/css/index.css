@@ -116,3 +116,19 @@ main {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+img.src_img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 297px;
+    height: 180px;
+}
+
+.top_foods {
+    margin: 5%;
+}
+
+/* .brand-logo::after {
+    content: "Hello world"
+} */

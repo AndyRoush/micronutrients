@@ -1,12 +1,18 @@
 $(document).ready(function(){
-    //parallax init
-    $('.parallax').parallax();
+  
+  // materialize parallax init
+  $('.parallax').parallax();
 
-    $('.tabs').tabs();
+  // materialize tabs init
+  $('.tabs').tabs();
 
-    $('.collapsible').collapsible();
+  // materialize collapsible init
+  $('.collapsible').collapsible();
 
-
+  // on click function that opens the souces page from the corresponding info page
+  document.querySelector(".b1btn").onclick = function () {
+    window.open("../pages/SourcesPages/b1.html")
+  }
 
 
   });
