@@ -107,3 +107,12 @@ main {
 .tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
     color: rgb(34, 34, 34);
 }
+
+/* .src_info {
+    border: 1px solid black;
+} */
+
+.src_info_padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
