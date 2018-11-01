@@ -145,3 +145,7 @@ img.src_img {
 /* .brand-logo::after {
     content: "Hello world"
 } */
+
+.divider {
+    margin-bottom: 25px;
+}
