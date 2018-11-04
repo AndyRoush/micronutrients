@@ -14,5 +14,20 @@ $(document).ready(function(){
     window.open("../pages/SourcesPages/b1.html")
   }
 
+  // on click to 
+  // document.querySelector(".collapsible-header").addEventListener("click", function() {
+  //   let bText = document.querySelector(".collapsible-header");
+  //   bText.classList.toggle("bText");
+  //   console.log("click working")
+  // })
+
+  let el = document.querySelectorAll(".collapsible-header");
+  for (var i = 0; i < el.length; i++) {
+    el[i].addEventListener("click", function() {
+      let bText = document.querySelector(".collapsible-header");
+      bText.classList.toggle("bText");
+      console.log("click working")
+    });
+  }
 
   });
