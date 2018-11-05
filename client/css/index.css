@@ -157,3 +157,11 @@ img.src_img {
 .bText {
     font-weight: bold;
 }
+
+.b1btn {
+    background-color: rgba( 40,120, 19,1);
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: rgba( 98,179, 77,1);
+}
