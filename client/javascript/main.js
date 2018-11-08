@@ -14,7 +14,15 @@ $(document).ready(function(){
     window.open("../pages/SourcesPages/b1.html")
   }
 
-  // onClick to 
+  let colBody = document.querySelectorAll(".collapsible-body")
+  for (var i = 0; i < colBody.length; i++) {
+  if (colBody.classList = "display: block;") {
+    console.log("working")
+  } else {
+    console.log("Not working")
+  }
+  }
+  // onClick to change the collapsible header text bold
   let bList = document.querySelectorAll('.collapsible-header');
   for (var i = 0; i < bList.length; i++) {
     let bText = bList[i];
